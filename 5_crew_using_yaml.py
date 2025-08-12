@@ -10,7 +10,7 @@ load_dotenv()
 class BlogCrew():
     """"Blog writing crew"""
 
-    agents_config = "crewai/"
+    agents_config = "config/agents.yaml"
     tasks_config = "config/tasks.yaml"
 
     @agent
